@@ -40,7 +40,7 @@
       map.panTo(r.point);
       // alert('您的位置：' + r.point.lng + ',' + r.point.lat);
       console.log('您的位置：' + r.point.lng + ',' + r.point.lat)
-      var url = 'http://api.map.baidu.com/geoconv/v1/?coords=' + r.point.lng + ',' + r.point.lat +
+      var url = 'https://api.map.baidu.com/geoconv/v1/?coords=' + r.point.lng + ',' + r.point.lat +
         '&from=1&to=5&ak=GAlGyG5DKKjcpnPu2Ps9ij9BVZlNldKf'
       $.ajax({
         type: "GET",
